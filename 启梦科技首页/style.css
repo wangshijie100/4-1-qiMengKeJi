@@ -1,0 +1,340 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	padding: 30px 0;
+	text-align: center;
+}
+.header div{
+	display: inline-block;
+}
+.header .logo{
+	border-right: 1px solid #e8e8e8;
+	padding-right: 20px;
+}
+.header .logo-text{
+	margin-left: 10px;
+}
+.header .logo-text h1{
+	font-size: 24px;
+	font-family: "microsoft yahei";
+	color: #fa8100;
+	text-align: left;
+	margin-bottom: 5px;
+	font-weight:normal;
+}
+.header .logo-text p{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #666;
+	text-align: left;
+}
+.header .weixin-code{
+	height: 100%;
+	margin-left: 100px;
+}
+.header .code{
+	height: 100%;
+}
+.header .code img{
+	position: relative;
+	top:5px;
+}
+.header .weixin-code .hot-line{
+	font-size: 17px;
+	font-family: "microsoft yahei";
+	color: #333;
+	text-align: left;
+}
+.header .weixin-code .phone-number{
+	font-size: 24px;
+	font-family: "Impact";
+	color: #005c9d;
+}
+.navbar{
+	width: 100%;
+	height:50px;
+	background-color: #00659c;
+	text-align: center;
+}
+.navbar .nav{
+	width: 960px;
+	margin-right: auto;
+    margin-left: auto;
+}
+.navbar .nav ul{
+	list-style:none;
+	width: 100%;
+}
+.navbar .nav li{
+	float:left;
+	height: 50px;
+	padding: 0 32px;
+	background: url(images/nav-line.gif) no-repeat right center;
+}
+.navbar .nav .nav-ul .li-service{
+	background-color: #004b8b;
+}
+.navbar .nav li:hover{
+	background-color: #004b8b;
+}
+.navbar .nav a{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #FFF;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    text-decoration: none;
+}
+.banner{
+	width: 100%;
+	height: 480px;
+	background-color: #e8e8e8;
+}
+.banner .banner-image{
+	width: 960px;
+	height: 408px;
+	margin-right: auto;
+    margin-left: auto;
+    background: url(images/banner.png) no-repeat ;
+}
+.banner .banner-image .banner-text{
+	padding-top: 50px;
+	text-align: right;
+}
+.banner .banner-image .banner-text h1{
+	font-size: 40px;
+	font-family: "microsoft yahei";
+	font-weight:normal;
+}
+.banner .banner-image .banner-text h2{
+	font-size: 40px;
+	font-family: "microsoft yahei";
+	font-weight:normal;
+}
+.banner .banner-image .banner-text h3{
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight:normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.banner .banner-image .banner-text h4{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	font-weight:normal;
+}
+.banner .banner-image .banner-block{
+	width: 960px;
+	height: 110px;
+	margin-top: 80px;
+}
+.banner .banner-image .banner-block ul{
+	width: 960px;
+	height: 110px;
+	list-style:none;
+}
+.banner .banner-image .banner-block li{
+	float:left;
+	width: 230px;
+	height: 110px;
+	padding: 0 32px;
+	color: #000;
+	background-color: #FFF;
+	filter:alpha(opacity=50);
+	opacity: 0.5;
+	text-align: center;
+}
+.banner .banner-image .banner-block .li-1{
+	color: #FFF;
+	background-color: #006eaa;
+	filter:alpha(opacity=50);
+	opacity: 0.9;
+	float: left;
+	left: 0;
+}
+.banner .banner-image .banner-block .li-2{
+	float: left;
+	position: relative;
+	left: 37px;
+}
+.banner .banner-image .banner-block .li-3{
+	float: right;
+}
+.banner .banner-image .banner-block li h1{
+	font-size: 24px;
+	font-family:"microsoft yahei";
+	padding-top:13px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.banner .banner-image .banner-block li p{
+	font-size: 12px;
+	font-family:"microsoft yahei";
+	padding-top:13px;
+}
+.brief{
+	width: 960px;
+	height: 390px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.brief .brief-title{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background:url(images/title-bg.gif) repeat-x left center;
+}
+.brief .brief-title .title-div{
+	background: #FFF;
+	width: 400px;
+}
+.brief .brief-title h1{
+	font-size: 24px;
+	font-family:"microsoft yahei";
+	color: #006eaa;
+	display: inline-block;
+}
+.brief .brief-title span{
+	font-size: 20px;
+	font-family:"Arial";
+	color: #999999;
+}
+.brief .brief-content .p0{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #666666;
+	margin-bottom: 15px;
+}
+.brief .brief-content h2{
+	background-color:#006eaa; 
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #FFF;
+	padding:20px;
+}
+.brief .brief-content .div1{
+	width: 300px;
+	height: 370px;
+	display: inline-block;
+	float: left;
+}
+.brief .brief-content i{
+	width: 14px;
+    height: 2px;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    background: #FFF;
+   	margin-bottom: 6px;
+}
+.brief .brief-content  h2 p{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #FFF;	
+}
+.brief .brief-content .div2{
+	width: 300px;
+	height: 370px;
+	display: inline-block;
+	float: left;
+	position: relative;
+	left: 30px;
+}
+.brief .brief-content .div3{
+	width: 300px;
+	height: 370px;
+	display: inline-block;
+	float: right;
+}
+.brief .brief-content .div1 .p1{
+	font-size: 12px;
+	font-family: "microsoft yahei"; 
+	color: #999999;
+	padding: 20px;
+}
+.brief .brief-content .div2 .p2{
+	font-size: 12px;
+	font-family: "microsoft yahei"; 
+	color: #999999;
+	padding: 20px;
+}
+.brief .brief-content .div3 .p3{
+	font-size: 12px;
+	font-family: "microsoft yahei"; 
+	color: #999999;
+	padding: 20px;
+}
+.brief .brief-content .div-common{
+	height: 75px;
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.footer{
+	width: 100%;
+    height: 85px;
+    text-align: center;
+    margin: 0 auto;
+   
+    
+    background-color: #006eaa;
+}
+.footer .footer-box{
+	width: 960px;
+	margin-right: auto;
+    margin-left: auto;
+	position: relative;
+	top:-65px;
+}
+.footer .footer-box .box1{
+	display: inline-block;
+	border-right: 1px solid #FFF;
+	padding-right: 15px;
+	margin-right: 10px;
+}
+.footer .footer-box .box1 .box1-1{
+	display: inline-block;
+}
+.footer .footer-box .box1 .box1-2{
+	display: inline-block;
+}
+.footer .footer-box .box2{
+	display: inline-block;
+}
+.footer .footer-box .box1 .box1-1{
+	width: 50px;
+	height: 50px;
+	background-color: #FFF;
+	border-radius: 6px;
+	text-align: center;
+}
+.footer .footer-box .box1 .box1-1 img{
+	position: relative;
+	top: 5px;
+}
+.footer .footer-box .box1 .box1-2 h1{
+	font-size: 20px;
+	font-family: Georgia;
+	color: #FFF;
+}
+.footer .footer-box .box1 .box1-2 p{
+	font-size: 12px;
+	font-family: "microsoft yahei"; 
+	color: #c4eaff;
+	text-align: left;
+	margin-top: 5px;
+}
+.footer .footer-box .box2 p{
+	font-size: 12px;
+	font-family: "microsoft yahei"; 
+	color: #c4eaff;
+	text-align: left;
+}
+
+
+
+
